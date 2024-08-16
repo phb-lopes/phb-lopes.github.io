@@ -15,8 +15,8 @@ body {
 }
 
 .sidebar {
-    background: #333;
-    color: #fff;
+    background: #9dcf96;
+    color: #060606;
     width: 250px;
     padding: 20px;
     box-sizing: border-box;
@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #0a0a0a;
     text-decoration: none;
     font-size: 18px;
     border-bottom: 1px solid transparent;
@@ -67,6 +67,22 @@ nav ul li a {
 
 nav ul li a:hover {
     border-bottom: 1px solid #fff;
+}
+
+.social-links {
+    margin-top: 50px;
+    
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #ccc;
 }
 
 main {
@@ -84,7 +100,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #9dcf96;
     padding-bottom: 10px;
 }
 
@@ -98,8 +114,8 @@ ul {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #0d0d0d;
+    color: #2f7c25;
     text-align: center;
     padding: 10px 0;
     position: relative;
